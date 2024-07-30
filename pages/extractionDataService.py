@@ -16,4 +16,3 @@ def ocrService():
 
     text = pytesseract.image_to_string(rgb_image, lang='kor+eng')
     return text
-
